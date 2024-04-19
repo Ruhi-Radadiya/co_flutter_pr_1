@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  var array = [];
+  List array = [];
   stdout.write("Enter the element number you want : ");
   int length = int.parse(stdin.readLineSync() ?? "0");
   for (int i = 1; i <= length; i++) {
