@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  var array = [1, 2, 3, 4];
+  List array = [1, 2, 3, 4];
   print("1. Enter an element ");
   print("2. Update an element ");
   print("3. Remove an element ");
